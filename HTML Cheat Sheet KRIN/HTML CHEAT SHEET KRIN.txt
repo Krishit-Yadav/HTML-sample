@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+ <head>
+ 	<title>HTML CHEAT SHEET KRIN</title>
+ </head>
+ <body>
+ 	<!-- HEADINGS -->
+ 	<a href="KRINblog.html"> GO TO KRIN-Blog</a>
+ 	<hr>
+ 	<h1>HEADING ONE</h1>
+ 	<h2>2nd HEADING</h2>
+ 	<h3>3rd HEADING</h3>
+ 	<h4>4th HEADING</h4>
+ 	<h5>5th HEADING</h5>
+ 	<h6>6th HEADING</h6>
+ 	<h7>7th HEADING</h7> 
+
+ 	<!-- PARAGRAPHS -->
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat.<strong> <em>Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur</em> </strong>. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ 	</p>
+ 	<p>
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua.<strong>Ut enim ad minim veniam</strong> ,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident,<strong> <a href="http://google.com" target="_blank">sunt in culpa qui officia deserunt mollit anim id est laborum</a> </strong>.
+ 	</p>
+
+ 	<!-- LISTS -->
+
+ 	
+ 	<ul>
+ 		<li>LIST ITEM 1</li>
+ 		<li>LIST ITEM 2</li>
+ 		<li>LIST ITEM 3</li>
+ 		<li>LIST ITEM 4</li>
+ 		<li>LIST ITEM 5</li>
+ 		<li>LIST ITEM 6</li>
+ 	</ul>
+
+ 	<ol>
+ 		<li>LIST ITEM 1st</li>
+ 		<li>LIST ITEM 2nd</li>
+ 		<li>LIST ITEM 3rd</li>
+ 		<li>LIST ITEM 4th</li>
+ 		<li>LIST ITEM 5th</li>
+ 		<li>LIST ITEM 6th</li>
+ 	</ol>
+
+ 	<!--TABLE-->
+
+ 	<table>
+ 		<thead>
+ 			<tr>
+ 				<th>NAME</th>
+ 				<th>E-MAIL</th>
+ 				<th>AGE</th>
+ 			</tr>
+ 		</thead>
+ 		<tbody>
+ 			<tr>
+ 				<td>AMIT YADAV</td>
+ 				<td>ay1998@okay.com</td>
+ 				<td>22</td>
+ 			</tr>
+ 			<tr>
+ 				<td>CHETANIYA SRAVANTI</td>
+ 				<td>cs1998@okay.com</td>
+ 				<td>22</td>
+ 			</tr>
+ 			<tr>
+ 				<td>SURAJ KUMAR</td>
+ 				<td>sk1999@okay.com</td>
+ 				<td>22</td>
+ 			</tr>
+ 			<tr>
+ 				<td>ANKIT GUALA</td>
+ 				<td>akd1998@okay.com</td>
+ 				<td>22</td>
+ 			</tr>
+ 			<tr>
+ 				<td>ARIJIT BANERJEE</td>
+ 				<td>ab1997@okay.com</td>
+ 				<td>23</td>
+ 			</tr>
+ 		</tbody>
+ 	</table>
+
+
+ 	<br>
+<hr>
+<br>
+ 	<!--FORMS-->
+
+ 	<form action="process.php" method="POST">
+ 		<div>
+ 			<label>FIRST NAME</label>
+ 			<input type="text" name="first-name"
+ 			placeholder="ENTER FIRST NAME">
+ 		</div>
+ 		<br>
+ 		<div>
+ 			<label>LAST NAME</label>
+ 			<input type="text" name="last-name" 
+ 			placeholder="ENTER LAST NAME">
+ 		</div>
+ 		<br>
+ 		<div>
+ 			<label>E-MAIL</label>
+ 			<input type="E-MAIL" name="last-email">
+ 		</div>
+ 		<br>
+ 		<div>
+ 			<label>MESSAGE</label>
+ 			<textarea name="message"></textarea>
+ 		</div>
+ 		<br>
+ 		<div>
+ 			<label>GENDER</label>
+ 			<select name="GENDER">
+ 				<option value="male">MALE</option>
+ 				<option value="female">FEMALE</option>
+ 				<option value="others">OTHERS</option>
+ 			</select>
+ 		</div>
+ 		<br>
+ 		<div>
+ 			<label>AGE</label>
+ 			<input type="number" name="age">
+ 		</div>
+ 		<br>
+ 		<div>
+ 			<label>BIRTHDAY</label>
+ 			<input type="date" name="birthday">
+ 		</div>
+ 		<br>
+ 			<input type="submit" name="submit"
+ 			value="SUBMIT">
+ 	</form>
+
+ 	<!--BUTTON-->
+ 	<button>CLICK ME</button>
+
+<br>
+<br>
+ 	<!--IMAGE-->
+ <a href="IMAGE/SHIV ADIYOGI.jpg" target="_blank">
+ 	<img src="IMAGE/SHIV ADIYOGI.jpg" alt="MY SAMPLE IMAGE"
+ 	width="150">
+ </a>	
+
+ <!--QUOTATIONS-->
+
+ <blockquote cite="http://krinenterprise.com">
+ 		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+ 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+ 		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+ 		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+ 		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+ 		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+ </blockquote>
+
+ <p>
+ 	 THE COIVID19 PANDEMIC IS REALLY DANGEROUS FOR <abbr title="WHOLE WORLD">WW</abbr>.
+ </p>
+
+ <p>
+ 	<cite>My Future Automobile Company name will be</cite> KRIN MOTORS
+ </p>
+ </body>
+</html>
